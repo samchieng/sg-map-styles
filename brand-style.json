@@ -1,5 +1,13 @@
 [
   {
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
     "featureType": "administrative",
     "elementType": "geometry",
     "stylers": [
@@ -23,6 +31,22 @@
     "stylers": [
       {
         "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.neighborhood",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -114,9 +138,6 @@
     "stylers": [
       {
         "saturation": -100
-      },
-      {
-        "visibility": "simplified"
       }
     ]
   },
@@ -125,15 +146,6 @@
     "stylers": [
       {
         "saturation": -100
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -152,9 +164,6 @@
     "stylers": [
       {
         "saturation": -100
-      },
-      {
-        "visibility": "simplified"
       }
     ]
   }
